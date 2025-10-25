@@ -1,0 +1,38 @@
+ .angelList-cards{
+      height: 580px;
+      background-color: rgb(2, 36, 41);
+      display: flex;
+      color: aliceblue;
+      padding: .5rem;
+      & .img{
+            height: 376px;
+            width:275px;
+            transition: 0.3s ease;
+           padding: .5rem 0;
+           border-radius: 5%;
+           opacity: 0.8;
+          
+      }
+       & .img:hover{
+              
+              cursor: pointer ;
+              transform: scale(1.05);
+             opacity: 1;
+      }
+}
+
+.card{
+      border-top: 1px solid rgb(27, 86, 86);
+      border-bottom: 1px solid rgb(27, 86, 86);
+      margin: 1rem;
+}
+.card-heading{
+      font-size: 19px;
+      font-weight: 400;
+      margin-top: 1rem;
+}
+.card-discription{
+     font-size: 18px;
+    padding-bottom: 2rem;
+}
+

@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Lora|Roboto:400,500);
+
+.navbar{
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    background-color: rgb(2, 36, 41);
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+    position: fixed;
+}
+.Navbar-Items{
+    display: flex;
+    height: 3.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(6, 62, 69);
+    color: #fff;
+    border-radius:29px;
+    & p{
+         margin-left: 1rem;
+         margin-right: 1rem;
+    }
+}
+.angelList{
+    font-size: 22px;
+     font-family: angellist, "angellist Fallback", sans-serif;
+}
+.navbar-signUp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    & p{
+        font-size: 16px;
+         margin-left: 1rem;
+         font-family: angellist, "angellist Fallback", sans-serif;
+
+    }
+}
+.contact{
+    margin-top: .3rem;
+    padding: .6rem;
+    border-radius: 5px;
+    color: rgb(0, 29, 33);
+   
+    font-family: angellist, "angellist Fallback", sans-serif;
+
+    background-color: rgb(189, 187, 255);
+}
