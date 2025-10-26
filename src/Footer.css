@@ -1,0 +1,38 @@
+.footer{
+   background-color: rgb(239, 245, 246);
+    height: 500px;
+    border-bottom:1px solid rgb(48, 45, 45) ;
+}
+.footer-section1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom:1px solid rgb(48, 45, 45) ;
+}
+.footer-section1-1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+.footer-section1-2{
+    display: flex;
+    align-items: center;
+    
+    gap: 1rem;
+}
+.Twitter{
+    margin-top: .11rem;
+    color: rgb(104, 112, 111);
+     
+}
+.footer-section2{
+    padding: 2rem;
+     font-family: angellist;
+     & p{
+        padding-top: 1rem;
+     }
+}
